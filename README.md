@@ -1,11 +1,21 @@
-# bird_buzzer
-Bird classification with ML
+# Smart Scarecrow (bird_buzzer)
+Bird's classification using ML.
 
-The project classify the birds by their sound, in order to decide whether to drive them away (dove, crow, myna) or not (sunbird).
+My first real-world ML project from the idea to a product.
+The Smart scarecrow classifies the birds by the frequencies of their sounds, in order to decide whether to drive them away (dove, crow, myna) or not (sunbird).
+
+It has two parts: The 'brain' and the 'body'.
+
+The 'brain' (the algorithm):
+
+Training stage: 
+
+* The trainig of the models is done using audio samples from www.xeno-canto.org.
+* Part of the sampls were processed with Audacity (reducing background noise, cutting silent parts, duplicating sounds in too short samples).
 
 It converts mp3 files to wav for processing.
 
-The audio files were downloaded from www.xeno-canto.org.
+
 
 The next stage is to activate a buzzer through Arduino or Raspberry PI.
 
