@@ -6,9 +6,10 @@ The Smart scarecrow classifies the birds by the frequencies of their sounds, in 
 
 It has two parts: The 'brain' and the 'body'.
 
-The 'brain' (the algorithm):
+## The 'brain' (the algorithm):
+The algorithm has two stages: Training (training the models), and real-life (processing the captured sounds with the chosen model).
 
-Training stage: 
+### Training stage: 
 
 * The training of the models is done using audio samples from www.xeno-canto.org.
 * Part of the samples were processed with Audacity (reducing background noise, cutting silent parts, duplicating sounds in too short samples).
@@ -16,18 +17,19 @@ Training stage:
 * Create spectrograms and extracts the loudest frequencies.
 * Runs the models.
 
-Real-life stage:
+### Real-life stage:
 * Runs the selected model on the data captured by the Raspberry Pi.
 
-The 'body' (Raspberry Pi with a microphone and LEDs simulating 'Activate a buzzer' (red LED) and 'Do nothing' (blue LED).
+## The 'body' 
+Raspberry Pi (RPi) with a microphone and LEDs simulating 'Activate a buzzer' (red LED) and 'Do nothing' (blue LED).
 
-Real-life stage:
+### Real-life stage:
 * Captures the sounds with the microphone.
 * (The 'brain' runs the model).
 * Activates the LED according to the result.
 
 
-Files:
+## Files:
 
 * `bird_buzzer.ipynb`: The code for training the models.
 * `bird_buzzer.pdf` contains the notebook code with the outputs (to see the output without running the Jupyter notebook).
