@@ -27,5 +27,8 @@ Real-life stage:
 * Activates the LED according to the result.
 
 
+Files:
 
-The pdf file contains the notebook code with the outputs (instead of running the Jupyter notebook).
+* 'bird_buzzer.ipynb': The code for training the models.
+* `bird_buzzer.pdf` contains the notebook code with the outputs (to see the output without running the Jupyter notebook).
+* `scarecrow.py`: The code on the RPi to capture the sound, run the pre-trained model, and activate the LEDs.
