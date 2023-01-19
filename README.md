@@ -28,4 +28,4 @@ Real-life stage:
 
 
 
-
+The pdf file contains the notebook code with the outputs (instead of running the Jupyter notebook).
