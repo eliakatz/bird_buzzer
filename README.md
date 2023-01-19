@@ -10,10 +10,10 @@ The 'brain' (the algorithm):
 
 Training stage: 
 
-* The trainig of the models is done using audio samples from www.xeno-canto.org.
-* Part of the sampls were processed with Audacity (reducing background noise, cutting silent parts, duplicating sounds in too short samples).
+* The training of the models is done using audio samples from www.xeno-canto.org.
+* Part of the samples were processed with Audacity (reducing background noise, cutting silent parts, duplicating sounds in too short samples).
 * Converts mp3 files to wav for processing.
-* Create spectrograms and extrcts the loudest frequencies.
+* Create spectrograms and extracts the loudest frequencies.
 * Runs the models.
 
 Real-life stage:
