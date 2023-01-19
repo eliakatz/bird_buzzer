@@ -12,15 +12,20 @@ Training stage:
 
 * The trainig of the models is done using audio samples from www.xeno-canto.org.
 * Part of the sampls were processed with Audacity (reducing background noise, cutting silent parts, duplicating sounds in too short samples).
+* Converts mp3 files to wav for processing.
+* Create spectrograms and extrcts the loudest frequencies.
+* Runs the models.
 
-It converts mp3 files to wav for processing.
+Real-life stage:
+* Runs the selected model on the data captured by the Raspberry Pi.
+
+The 'body' (Raspberry Pi with a microphone and LEDs simulating 'Activate a buzzer' (red LED) and 'Do nothing' (blue LED).
+
+Real-life stage:
+* Captures the sounds with the microphone.
+* (The 'brain' runs the model).
+* Activates the LED according to the result.
 
 
 
-The next stage is to activate a buzzer through Arduino or Raspberry PI.
 
-The mp3 files are located in the zipped folders.
-
-21/12/22
-
-https://app.pitch.com/app/presentation/f90d90a4-5e02-46ca-9dae-2801875257a9/d0150cbf-8d8a-4fbe-88be-f1a8729603fe
