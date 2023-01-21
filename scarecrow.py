@@ -137,7 +137,9 @@ while runcode==True:
         b.stft = S_b
         b.Y = Y_b
 
-        # minimize the intensity up to freq=256
+        # minimize the intensity up to freq=256. These frequencies are due to background noise, especially 
+        # the 48 Hz segments that is captured as the loudest frequency, and has nothing to do with the birds.
+        # It's just the AC frequency (the closest product of 16 to 50 Hz (the AC frequency))
         y_new= np.copy(b.Y)
         y_new[:16] = b.Y.min()
         y_new
