@@ -1,7 +1,8 @@
 # Smart Scarecrow (bird_buzzer)
 Bird's classification using ML.
 
-My first real-world ML project from the idea to a product.
+My first real-world ML project from the idea to a product. 2nd place winner in a project competition.
+
 The Smart scarecrow classifies the birds by the frequencies of their sounds, in order to decide whether to drive them away (dove, crow, myna) or not (sunbird).
 
 It has two parts: The 'brain' and the 'body'.
